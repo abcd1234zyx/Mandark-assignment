@@ -1,1 +1,11 @@
-krjrjk bkb r b
+In this question, we have to find 
+Manhattan distance between starting and end point
+For finding that distance we need vertical distance
+(whether it is in north or south direction) and
+horizontal distance(whether it is east or west direction)
+For, that we traverse through string counting north as positiveVertical
+and south as negativeVertical(because east and west will have 0
+impace on verticalDistance) and same for east as positiveHorizontal and
+west as negativeHorizontal and then find the net value by subtracting
+respective values and then calculate the square root of square of both
+results.
