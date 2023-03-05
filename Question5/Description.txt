@@ -1,1 +1,6 @@
-krjrjk bkb r b
+In this question, we need to find if proper divisior of sum is equal to number or not
+For that, we can iterate over 2 to sqrtofnumber and find all the factors in log(n) complexity
+Since, 1 is factor off all numbers,we initialise count with 1
+Now, we can add all the factors
+and return true if it is equal to number
+otherwise, return false.
