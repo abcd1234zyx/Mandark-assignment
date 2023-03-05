@@ -1,1 +1,7 @@
-krjrjk bkb r b
+In this question, we need to find minimum of multipication of maximum of two arrays in which swapping of same indices is possible,
+First Observation-  The element that is maximum in both arrays combined cannot be ignored as swapped or swapped it will be part of
+either maximum of arrays.
+Now, For the second element we can find maximum of both arrays minimum at particular index, because if it is not minimum then we will swap to make it minimum and then iterate and take maximum of arrays
+so firstElement=max(min(ith element of firstArray,ith element of secondArray)) iterating over all array
+and secondElement = max(firstArray,secondArray)[This can't be ignored as it is maximum from both array)
+netAns=firstElement*secondElement
