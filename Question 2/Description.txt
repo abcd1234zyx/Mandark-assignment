@@ -1,1 +1,10 @@
-krjrjk bkb r b
+In this question, we have to find 
+1.)Managerand R&D employee
+2.)Single Named Employee
+For this, we can first open employees file in read mode,manager file and single_name_employee file in write mode and read employee file line by line
+Then we can put data in ArrayList(Which is comma seperated)
+In that arrayList
+1.) For Manager second value in ArrayList should be manager and third value R&D
+2.)for Single named Employee in first value of ArrayList, there should be no space.
+if condition 1 is true then we will write in manager.csv file and condition 2 is
+true then we will paste in single_named_employee.csv file
